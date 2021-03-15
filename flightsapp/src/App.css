@@ -1,0 +1,128 @@
+body {
+  background-color: #1B262A;
+}
+#header{
+  height: 75px;
+  background-color: #1D2C31;
+  font-size: 30px;
+  position: relative;
+}
+.header{
+  color: #FFF;
+}
+.title{
+  color: #FFF;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+#prices{
+  width: 125px;
+  height: 45px;
+  margin-right: 25px;
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: 15px;
+  float: right;
+}
+
+#main{
+  height: calc(100vh - 175px);
+  background-color: #1D2C31;
+  font-size: 30px;
+  position: relative;
+  width: calc(100vw - 200px);
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+.locationWrapper{
+  height: 100px;
+  width: calc(100% - 100px);
+  margin: auto;
+  margin-top: 25px;
+}
+.location{
+  color: #FFF;
+  height: 100px;
+  padding: .1px;
+}
+.select-search{
+  margin:auto;
+  display: inline-block;
+}
+.select-search__input{
+  border: none;
+  color: #fff;
+  background-color: #1B262A;
+  text-align: center;
+}
+.select-search__options{
+  list-style-type: none;
+  margin-left: none;
+  width: 160px;
+}
+#prices .select-search__options{
+
+  width: 60px;
+}
+.select-search__option{
+  border: none;
+  background-color: none;
+  padding-inline-start: none;
+}
+.select-search__select{
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  z-index: 1;
+  position: absolute;
+  background-color: #24363D;
+}
+.select-search__row{
+  display: block;
+}
+
+
+#prices .select-search__input{
+  width: 110px;
+  height: 30px;
+}
+.header{
+  width: 100px;
+  display: inline-block;
+}
+
+.from .select-search__select{
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  z-index: 1;
+  position: absolute;
+  background-color: #24363D;
+}
+.from .select-search__input{
+  width: 210px;
+  height: 40px;
+  margin-right: 10px;
+}
+#GetFlights{
+  background-color: #33C16C;
+  color: #FFF;
+  border-color: rgb(41, 149, 84);
+  width: 200px;
+  text-align: center;
+  border-width: 0px 0px 2px;
+  border-style: initial;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 3px;
+}
+#GetFlights:hover{
+  cursor:pointer;
+}
