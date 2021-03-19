@@ -1,5 +1,39 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #26383F;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1D2C31;
+}
+input, textarea, select { 
+  outline: none;
+}
+input:hover{
+  cursor: pointer;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 15px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1D2C31;
+}
 body {
   background-color: #1B262A;
+  color: #FFF;
 }
 #header{
   height: 75px;
@@ -125,4 +159,67 @@ body {
 }
 #GetFlights:hover{
   cursor:pointer;
+}
+.quote{
+  width: 100%;
+  height: 100px;
+  background-color: #1B262A;
+  color: #FFF;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.quote .number{
+  height: 90px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+  border-right: solid;
+  border-color: #1D2C31;
+  border-width: 5px;;
+}
+.quote .price{
+  margin-left: 10px;
+  height: 50px;
+  display: inline-block;
+}
+
+.quote .carrier{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.quote .date{
+  display: inline-block;
+}
+.flightsinfo{
+  width: calc(100%-10px);
+  background-color: #1B262A;
+  border-radius: 3px;
+  color: #FFF;
+  padding: 5px;
+  font-size: 20px;
+}
+.react-date-picker{
+  background-color: #1B262A;
+  border: none;
+  color: #FFF;
+  font-size: 22px;
+}
+.react-date-picker__wrapper{
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+}
+.react-date-picker__inputGroup__input{
+  color: #FFF;
+}
+.react-date-picker__calendar-button{
+  color: #FFF;
+}
+
+.flightswrapper{
+  overflow-y: scroll;
+  height: calc(100vh - 485px);
 }
